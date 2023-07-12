@@ -16,16 +16,6 @@ const config = {
     // 'no',
     // 'pl',
     // 'pt-BR',
-    // 'pt',
-    // 'ru',
-    // 'sk',
-    // 'sv',
-    // 'th',
-    // 'tr',
-    // 'uk',
-    // 'vi',
-    // 'zh-Hans',
-    // 'zh',
   ],
 };
 
