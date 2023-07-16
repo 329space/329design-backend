@@ -10,10 +10,10 @@
     "strapi": "strapi",
     "prod": "cross-env NODE_ENV=production npm run build"
   },
-  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-i18n": "4.11.4",
     "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/provider-upload-cloudinary": "^4.11.5",
     "@strapi/strapi": "4.11.4",
     "better-sqlite3": "8.0.1",
     "cross-env": "^7.0.3"
