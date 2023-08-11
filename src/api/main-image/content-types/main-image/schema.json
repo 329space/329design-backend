@@ -1,10 +1,11 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "main_images",
   "info": {
     "singularName": "main-image",
     "pluralName": "main-images",
-    "displayName": "메인 이미지"
+    "displayName": "메인 이미지",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,11 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
