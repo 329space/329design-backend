@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_images",
+  "info": {
+    "singularName": "main-image",
+    "pluralName": "main-images",
+    "displayName": "메인 이미지"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

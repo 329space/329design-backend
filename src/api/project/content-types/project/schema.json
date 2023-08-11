@@ -4,26 +4,15 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "project",
+    "displayName": "포트폴리오",
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "photos": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "drawing": {
       "type": "media",
       "multiple": true,
       "required": false,
