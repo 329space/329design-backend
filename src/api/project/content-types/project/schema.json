@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "photos": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": ["images"]
-    },
     "description": {
       "type": "text"
     },
@@ -32,6 +26,13 @@
     },
     "location": {
       "type": "string"
+    },
+    "photos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
