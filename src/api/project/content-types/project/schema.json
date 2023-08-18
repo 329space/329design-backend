@@ -16,7 +16,8 @@
       "type": "text"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "area": {
       "type": "string"
@@ -28,11 +29,10 @@
       "type": "string"
     },
     "photos": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images"]
     }
   }
 }
