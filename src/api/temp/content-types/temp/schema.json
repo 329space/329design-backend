@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temps",
+  "info": {
+    "singularName": "temp",
+    "pluralName": "temps",
+    "displayName": "temp"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
