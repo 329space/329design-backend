@@ -22,9 +22,6 @@
     "area": {
       "type": "string"
     },
-    "category": {
-      "type": "string"
-    },
     "location": {
       "type": "string"
     },
@@ -32,7 +29,9 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
